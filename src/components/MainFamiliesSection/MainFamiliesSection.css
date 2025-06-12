@@ -1,0 +1,44 @@
+.main__families {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #65665c;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.families__container {
+  text-align: center;
+}
+.families__image {
+  margin-bottom: 24px;
+}
+.families__title {
+  margin-bottom: 24px;
+  font-size: 48px;
+}
+.families__text {
+  margin: 0 auto;
+  margin-bottom: 24px;
+  line-height: 1.4;
+  font-weight: 200;
+  max-width: 765px;
+  font-size: 18px;
+}
+
+/*Media*/
+
+@media (max-width: 767.98px) {
+  .families__title {
+    font-size: 32px;
+  }
+
+  .families__text {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+
+  .main__families {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

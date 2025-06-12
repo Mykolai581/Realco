@@ -1,0 +1,47 @@
+.properties__item {
+  background-color: #fff;
+  border-radius: 0px 0px 15px 15px;
+  max-width: 405px;
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.2);
+}
+
+.item-properties__image {
+  max-width: 405px;
+}
+.item-properties__image img {
+  max-width: 100%;
+}
+
+.item-properties__content {
+  padding: 30px 24px;
+  color: #2a2c1f;
+}
+
+.item-properties__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.item-properties__price {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+.item-properties__place {
+  color: #65665c;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.item-properties__place img {
+  margin-right: 5px;
+}
+
+.item-properties__info {
+  display: flex;
+  color: #65665c;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.item-properties__info img {
+  margin: 0px 5px 0px 0px;
+}

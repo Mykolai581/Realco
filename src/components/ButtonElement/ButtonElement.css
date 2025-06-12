@@ -1,0 +1,26 @@
+.header__button {
+  padding: 15px 28px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #cf6f49;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.header__button img {
+  max-width: 12px;
+  margin: 0px 5px 0px 0px;
+}
+
+.header__button:hover {
+  background-color: #cf6f49;
+  transform: scale(0.95) translateY(4px);
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.2);
+}
+
+@media (max-width: 768px) {
+  .header__button {
+    padding: 15px 33px;
+  }
+}

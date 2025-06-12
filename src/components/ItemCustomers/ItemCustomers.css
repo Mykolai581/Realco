@@ -1,0 +1,29 @@
+.customers__item {
+  padding: 23px 53px 60px;
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.2);
+  max-width: 405px;
+  border-radius: 20px;
+}
+
+.item-customers__text {
+  font-size: 18px;
+  color: #2a2c1f;
+  font-weight: 400;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+.item-customers__info {
+  font-size: 16px;
+  display: flex;
+}
+
+.item-customers__name {
+  margin-left: 20px;
+}
+.name {
+  color: #2a2c1f;
+  margin-bottom: 10px;
+}
+.item-customers__profession {
+  color: #65665c;
+}

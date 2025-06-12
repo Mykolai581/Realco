@@ -1,0 +1,79 @@
+.main__properties {
+  position: relative;
+  background-color: #f5f5f2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.find-app__decoration-top {
+  top: 0;
+  right: 0;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 135px;
+  height: 147px;
+  background-color: #e7e8e3;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 100%,
+    60% 100%,
+    60% 70%,
+    30% 70%,
+    30% 40%,
+    0% 40%
+  );
+  transform: rotate(0deg);
+}
+
+.find-app__decoration-bottom {
+  bottom: 0;
+  position: absolute;
+  width: 135px;
+  height: 147px;
+  background-color: #e7e8e3;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 100%,
+    60% 100%,
+    60% 70%,
+    30% 70%,
+    30% 40%,
+    0% 40%
+  );
+  transform: rotate(180deg);
+}
+
+.properties__info {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.properties__text-top {
+  padding: 5px 10px;
+  background-color: #e7e8e3;
+  color: #2a2c1f;
+  max-width: 85px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+.properties__title {
+  font-size: 48px;
+  color: #2a2c1f;
+}
+
+.properties__items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.properties__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 20px;
+}

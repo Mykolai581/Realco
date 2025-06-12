@@ -1,0 +1,31 @@
+.main__customers {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.customers__content-text {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.customers__title {
+  color: #2a2c1f;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.customers__text {
+  color: #65665c;
+  font-weight: 300;
+  font-size: 18px;
+}
+.customers__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+/*Media*/
+@media (max-width: 1318.98px) {
+  .customers__items {
+    justify-content: center;
+  }
+}
